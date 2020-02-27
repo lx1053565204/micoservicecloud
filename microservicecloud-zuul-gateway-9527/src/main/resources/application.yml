@@ -5,6 +5,14 @@ spring:
   application:
     name: microservicecloud-zuul-gateway
  
+zuul:  
+  prefix: /luxu
+  ignored-services: "*"
+  routes: 
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+ 
+ 
 eureka: 
   client: 
     service-url: 
