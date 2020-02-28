@@ -3,11 +3,11 @@ server:
   
 spring:
   application:
-    name:  microservicecloud-config
+    name: microservicecloud-config 
   cloud:
     config:
       server:
         git:
-          uri: git@github.com:lx1053565204/microservicecloud-config.git #GitHub上面的git仓库名字
+          uri: https://github.com/lx1053565204/microservicecloud-config.git #GitHub上面的git仓库名字
  
 
